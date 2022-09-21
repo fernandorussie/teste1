@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+}
+.container-header{
+}
+.header-navbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+@media (max-width: 1280px) {
+    body{
+        background-color: black;
+    }
+    .heaer-navbox{
+        padding: 10px;
+    }
+}
+.header-logo{
+    width:100px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 40px;
+}
+.btn-nav{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-nav:hover{
+    font-size: 26px;
+    color: gray;
+}
+
+/* Css da div principal da header */
+.header-contentbox{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-img{
+    width: 750px;
+}
+.header-content{
+    list-style: none;    
+}
+.header-content li{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fa470e;   
+    margin: 5px 0; 
+    cursor: pointer;
+}
+.header-content li:hover{
+    color: #160500;
+}
+
+/* Css da MAIN */
+
+.main-box-primeira{
+    display: flex;
+    border: 1px solid;
+    
+}
+
+.main-pet-img{
+    width: 500px;
+}
